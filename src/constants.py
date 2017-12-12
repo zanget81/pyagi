@@ -1,0 +1,45 @@
+__author__ = 'angel'
+
+class Constants(object):
+    TITLE = 'Dashboard'
+
+    FONT = 'Arial'
+
+    WINDOW_WIDTH = 1280
+    WINDOW_HEIGHT = 720   # Desired physical surface size, in pixels.
+
+    FRAME_RATE = 60
+
+    TOP_MENU_HEIGHT = 20
+    SIDE_MENU_FONT_SIZE = 22
+
+    BACKGROUND_COLOR = (234, 234, 234)
+    SIDE_MENU_COLOR = (50, 50, 50)
+    SIDE_MENU_FONT_COLOR = (255, 255, 255)
+    SIDE_MENU_BUTTON_HIGHLIGHT_COLOR = (0, 0, 0)
+    SIDE_MENU_BUTTON_FOCUS_COLOR = (50, 50, 50)
+    SIDE_MENU_TEXT_TOP_MARGIN = 20
+    SIDE_MENU_TEXT_LEFT_MARGIN = 20
+    SIDE_MENU_TEXT_RIGHT_MARGIN = 30
+    SIDE_MENU_WIDTH = 300
+    SIDE_MENU_BUTTON_HEIGHT = 60
+    TOP_MENU_COLOR = (168, 168, 168)
+
+    TILE_COLOR = (255, 255, 255)
+
+    PLOT_WIDTH = 800
+    PLOT_HEIGHT = 250
+
+    TILE_WIDTH = 200
+    TILE_HEIGHT = 60
+
+    TILE_FONT_COLOR = (0, 0, 0)
+
+    X = 0
+    Y = 1
+    WIDTH = 2
+    HEIGHT = 3
+
+    DPI = 100
+
+
