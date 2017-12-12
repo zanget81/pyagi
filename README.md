@@ -1,7 +1,12 @@
-pyIntDash
-=========
+pyagi
+=====
 
-An dashboard for integrators of onemw-js.
+An dasshboard for gerrit.
+
+Install
+-------
+
+pip install -r requirements.txt
 
 Run
 ---
