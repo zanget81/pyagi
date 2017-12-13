@@ -34,8 +34,8 @@ class Model(object):
                 if (change['status'] == 'MERGED'):
                     infoMergedPrDays.append(change)
 
-            print 'infoOpenPrDays' + str(infoOpenPrDays)
-            print 'infoMergedPrDays' + str(infoMergedPrDays)
+            print('infoOpenPrDays' + str(infoOpenPrDays))
+            print('infoMergedPrDays' + str(infoMergedPrDays))
 
             self.__infoOpenPrDays.insert(0, infoOpenPrDays)
             self.__infoMergedPrDays.insert(0, infoMergedPrDays)
@@ -69,7 +69,7 @@ class Model(object):
             result['created'] = created
             result['merged'] = merged
 
-            print 'created' + str(created)
-            print 'merged' + str(merged)
+            print('created' + str(created))
+            print('merged' + str(merged))
 
             callback(result)
